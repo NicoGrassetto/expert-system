@@ -1,0 +1,7 @@
+raar.exception.RAException: RAActor.set: value [real(value = 10.0)] not allowed in ANGLE.
+	at raar.agent.process.actor.RAActor.set(RAActor.java:90)
+	at raar.agent.process.RAPair.send(RAPair.java:37)
+	at raar.agent.RAAgent.runAgent(RAAgent.java:430)
+	at raar.engine.RAEngine_Simulator.runAgents(RAEngine_Simulator.java:142)
+	at raar.engine.RAEngine_Simulator.pulse(RAEngine_Simulator.java:83)
+	at raar.engine.RAPulse.run(RAPulse.java:44)
